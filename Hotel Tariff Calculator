@@ -1,0 +1,13 @@
+Write a  program to calculate the hotel tariff. The room rent is 20% high during peak seasons [April-June, November-December] .
+
+code:
+
+x=int(input())
+y=float(input())
+z=int(input())
+if(x==4 or x==5 or x==6 or x==11 or x==12):
+    print('Hotel tariff:Rs.','%.2f'%((1.2*y)*z))
+elif(x==1 or x==2 or x==3 or x==7 or x==8 or x==9 or x==10):
+    print('Hotel tariff:Rs.','%.2f'%(y*z))
+else:
+    print('invalid input')
