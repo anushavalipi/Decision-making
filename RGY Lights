@@ -1,0 +1,11 @@
+We are driving down the street and see a green traffic light ahead. Because we know precisely the pattern of this traffic light, we know exactly how long we have before it will turn red. We wish to compute whether we will pass the traffic light before it turns red at our current speed.
+
+code:
+
+s=float(input())
+d=float(input())
+t=float(input())
+if(t<=s*d):
+    print('yes')
+else:
+    print('no')
